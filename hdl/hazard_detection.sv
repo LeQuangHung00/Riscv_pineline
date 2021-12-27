@@ -15,9 +15,9 @@
 //----------------------------------------------------------------
 
 module hazard_detection (
-  input [4:0]  IF_ID_rs1     ,
-  input [4:0]  IF_ID_rs2     ,
-  input [4:0]  ID_EX_rd      ,
+  input [ 4:0]  IF_ID_rs1     ,
+  input [ 4:0]  IF_ID_rs2     ,
+  input [ 4:0]  ID_EX_rd      ,
   input        ID_EX_mem_read,
   output logic ctrl_sel       ,
   output logic IF_ID_write   ,

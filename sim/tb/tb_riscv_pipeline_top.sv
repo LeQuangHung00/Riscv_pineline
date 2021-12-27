@@ -1,17 +1,17 @@
 //---------------------------------------------------------------
 //                        RISC-V Core
 //                          Ver 1.0
-//                     EDABK  Laboratory
+//                          HUST
 //                      Copyright  2021
 //---------------------------------------------------------------
-//    Copyright © 2021 by EDABK Laboratory
+//    Copyright © 2021 by HUST
 //    All rights reserved.
 //
-//    Module  : tb_riscv_pipeline_top
-//    Project : riscv_pipeline
-//    Author  : Pham Ngoc Lam, Nguyen Van Chien, Duong Van Bien
-//    Company : EDABK Laboratory
-//    Date    : July 23rd 2021
+//    Module  : Memomy_Access
+//    Project : RISC-V pipeline
+//    Author  : Le Quang Hung
+//    Company : HUST
+//    Date    : DEC 19th 2021
 //----------------------------------------------------------------
 `timescale 1ns/10ps
 module tb_riscv_pipeline_top ();

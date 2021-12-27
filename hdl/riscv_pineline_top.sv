@@ -36,8 +36,8 @@ logic         mem_read          ;
 logic         alu_src           ;
 logic [ 1:0]  alu_op            ;
 logic         ctrl_sel          ;
-logic [ 1:0]  forward_comp1     ;
-logic [ 1:0]  forward_data_reg2     ;
+logic [ 1:0]  forward_data_reg1 ;
+logic [ 1:0]  forward_data_reg2 ;
 logic [31:0]  alu_out           ;
 logic [31:0]  mem_data          ;
 logic         br_eq             ;
@@ -238,12 +238,12 @@ forwarding_unit forwarding_unit(
 //         Module Hazrd Detection Unit
 //----------------------------------------------------------------
 hazard_detection hazard_detection(
-  .IF_ID_rs1     ,(IF_ID_rs1     ,)
-  .IF_ID_rs2     ,(IF_ID_rs2     ,)
-  .ID_EX_rd      ,(ID_EX_rd      ,)
-  .ID_EX_mem_read,(ID_EX_mem_read,)
-  .ctrl_sel       ,(ctrl_sel       ,)
-  .IF_ID_write   ,(IF_ID_write   ,)
+  .IF_ID_rs1      (IF_ID_inst[19:15]),
+  .IF_ID_rs2      (IF_ID_inst[24:20]),
+  .ID_EX_rd       (ID_EX_rd      ),
+  .ID_EX_mem_read (ID_EX_mem_read),
+  .ctrl_sel       (ctrl_sel      ),
+  .IF_ID_write    (IF_ID_write   ),
   .pc_write       (pc_write      )
   );
 

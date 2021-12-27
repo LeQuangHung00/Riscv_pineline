@@ -40,7 +40,7 @@ logic [31:0] inst   ;
 always_comb begin : proc_pc_selection
   pc_next   = pc_ff + 32'h0004            ;
   pc_new    = pc_src ? pc_branch : pc_next;
-  pc_out        = pc_new ? pc_write : pc_ff   ;
+  pc_out    = pc_write ? pc_new : pc_ff   ;
 end
 
 //----------------------------------------------------------------

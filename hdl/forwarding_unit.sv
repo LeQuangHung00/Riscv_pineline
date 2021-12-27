@@ -15,21 +15,21 @@
 //----------------------------------------------------------------
 
 module forwarding_unit (
-  input [4:0]   IF_ID_rs1        ,
-  input [4:0]   IF_ID_rs2        ,
-  input [4:0]   EX_MEM_rd        ,
-  input [4:0]   MEM_WB_rd        ,
-  input [4:0]   ID_EX_rd         ,
-  input [4:0]   ID_EX_rs1        ,
-  input [4:0]   ID_EX_rs2        ,
-  input         EX_MEM_reg_write ,
-  input         MEM_WB_reg_write ,
-  input         ID_EX_reg_write  ,
-  input         branch           ,
-  output logic  forwardA         ,
-  output logic  forwardB         ,
-  output logic  forward_data_reg1,
-  output logic  forward_data_reg2
+  input        [4:0]   IF_ID_rs1        ,
+  input        [4:0]   IF_ID_rs2        ,
+  input        [4:0]   EX_MEM_rd        ,
+  input        [4:0]   MEM_WB_rd        ,
+  input        [4:0]   ID_EX_rd         ,
+  input        [4:0]   ID_EX_rs1        ,
+  input        [4:0]   ID_EX_rs2        ,
+  input                EX_MEM_reg_write ,
+  input                MEM_WB_reg_write ,
+  input                ID_EX_reg_write  ,
+  input                branch           ,
+  output logic [1:0]   forwardA         ,
+  output logic [1:0]   forwardB         ,
+  output logic [1:0]   forward_data_reg1,
+  output logic [1:0]   forward_data_reg2
 );
 
 //----------------------------------------------------------------
