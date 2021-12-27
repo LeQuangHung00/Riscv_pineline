@@ -1,0 +1,260 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples
+T_opt
+!s110 1640617466
+V=K:P<>Z8fnMcd^dS[cP3a2
+04 21 4 work tb_riscv_pipeline_top fast 0
+=1-9840bb43345d-61c9d5fa-281-2700
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vcontrol
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z3 !s110 1640617640
+!i10b 1
+!s100 RdIH_hg_EdE9BQm;Hf1UX0
+I:RSQ9AMgdBQkR3iTnU2QN0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+!s105 control_sv_unit
+S1
+Z5 dE:/Verilog/Riscv_pineline/sim/simulation
+w1640508553
+8E:/Verilog/Riscv_pineline/hdl/control.sv
+FE:/Verilog/Riscv_pineline/hdl/control.sv
+Z6 L0 17
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1640617640.000000
+!s107 E:/Verilog/Riscv_pineline/hdl/control.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/Verilog/Riscv_pineline/hdl/control.sv|
+!i113 0
+Z9 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vexecute
+R2
+R3
+!i10b 1
+!s100 cBlDoWBEdWe@knnb@BIBV0
+IS9:85^=5:Qen3>;@k:ODe1
+R4
+!s105 execute_sv_unit
+S1
+R5
+w1640508571
+8E:/Verilog/Riscv_pineline/hdl/execute.sv
+FE:/Verilog/Riscv_pineline/hdl/execute.sv
+Z10 L0 16
+R7
+r1
+!s85 0
+31
+R8
+!s107 E:/Verilog/Riscv_pineline/hdl/execute.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/Verilog/Riscv_pineline/hdl/execute.sv|
+!i113 0
+R9
+R1
+vforwarding_unit
+R2
+R3
+!i10b 1
+!s100 VfAT=8Lk<NibJi=NReH1_0
+IS[heob28Oa0HeDDjM?8b;2
+R4
+!s105 forwarding_unit_sv_unit
+S1
+R5
+w1640508598
+8E:/Verilog/Riscv_pineline/hdl/forwarding_unit.sv
+FE:/Verilog/Riscv_pineline/hdl/forwarding_unit.sv
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 E:/Verilog/Riscv_pineline/hdl/forwarding_unit.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/Verilog/Riscv_pineline/hdl/forwarding_unit.sv|
+!i113 0
+R9
+R1
+vhazard_detection
+R2
+Z11 !s110 1640617641
+!i10b 1
+!s100 HdXMPKAS_@Td>X]5MY[Dc1
+I@A`5^lag0;o]zQK<6PD@F3
+R4
+!s105 hazard_detection_sv_unit
+S1
+R5
+w1640617449
+8E:/Verilog/Riscv_pineline/hdl/hazard_detection.sv
+FE:/Verilog/Riscv_pineline/hdl/hazard_detection.sv
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 E:/Verilog/Riscv_pineline/hdl/hazard_detection.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/Verilog/Riscv_pineline/hdl/hazard_detection.sv|
+!i113 0
+R9
+R1
+vinstruction_decode
+R2
+R11
+!i10b 1
+!s100 MTZN73[732glmDbo^WDD]3
+I97B;L54202BE<0Z5MN1C=1
+R4
+!s105 instruction_decode_sv_unit
+S1
+R5
+w1640616321
+8E:/Verilog/Riscv_pineline/hdl/instruction_decode.sv
+FE:/Verilog/Riscv_pineline/hdl/instruction_decode.sv
+R6
+R7
+r1
+!s85 0
+31
+Z12 !s108 1640617641.000000
+!s107 E:/Verilog/Riscv_pineline/hdl/instruction_decode.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/Verilog/Riscv_pineline/hdl/instruction_decode.sv|
+!i113 0
+R9
+R1
+vinstruction_fetch
+R2
+R11
+!i10b 1
+!s100 4E`HhkOA86P=W;bM5Z5i93
+If4k1Vj0NR:dJll;6KglhG3
+R4
+!s105 instruction_fetch_sv_unit
+S1
+R5
+w1640615709
+8E:/Verilog/Riscv_pineline/hdl/instruction_fetch.sv
+FE:/Verilog/Riscv_pineline/hdl/instruction_fetch.sv
+R10
+R7
+r1
+!s85 0
+31
+R12
+!s107 E:/Verilog/Riscv_pineline/hdl/instruction_fetch.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/Verilog/Riscv_pineline/hdl/instruction_fetch.sv|
+!i113 0
+R9
+R1
+vmemory_access
+R2
+R11
+!i10b 1
+!s100 gk>bbVn>ULgGlT[C<>W840
+Ik09KBo?:=febT13=REl_I3
+R4
+!s105 memory_access_sv_unit
+S1
+R5
+w1640616416
+8E:/Verilog/Riscv_pineline/hdl/memory_access.sv
+FE:/Verilog/Riscv_pineline/hdl/memory_access.sv
+R6
+R7
+r1
+!s85 0
+31
+R12
+!s107 E:/Verilog/Riscv_pineline/hdl/memory_access.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/Verilog/Riscv_pineline/hdl/memory_access.sv|
+!i113 0
+R9
+R1
+vregister_write
+R2
+R11
+!i10b 1
+!s100 @m:f=3Fm3f@;n@NaDSVO01
+I>M4IWhFEQWU1W<=8l8LWT0
+R4
+!s105 register_write_sv_unit
+S1
+R5
+w1640508650
+8E:/Verilog/Riscv_pineline/hdl/register_write.sv
+FE:/Verilog/Riscv_pineline/hdl/register_write.sv
+R6
+R7
+r1
+!s85 0
+31
+R12
+!s107 E:/Verilog/Riscv_pineline/hdl/register_write.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/Verilog/Riscv_pineline/hdl/register_write.sv|
+!i113 0
+R9
+R1
+vriscv_pineline_top
+R2
+!s110 1640617167
+!i10b 1
+!s100 W]7gS6H9O4<TG_zFN6[jC1
+IGVD<0fUf8Rm51ziH`^EDB1
+R4
+!s105 riscv_pineline_top_sv_unit
+S1
+R5
+w1640617165
+8E:/Verilog/Riscv_pineline/hdl/riscv_pineline_top.sv
+FE:/Verilog/Riscv_pineline/hdl/riscv_pineline_top.sv
+R6
+R7
+r1
+!s85 0
+31
+!s108 1640617167.000000
+!s107 E:/Verilog/Riscv_pineline/hdl/riscv_pineline_top.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/Verilog/Riscv_pineline/hdl/riscv_pineline_top.sv|
+!i113 0
+R9
+R1
+vtb_riscv_pipeline_top
+R2
+R3
+!i10b 1
+!s100 G1JTVA5mzIAZ0@lACSERo1
+Iki7Go97=nKlXdQj:mI_?l3
+R4
+!s105 tb_riscv_pipeline_top_sv_unit
+S1
+R5
+w1640616726
+8E:/Verilog/Riscv_pineline/sim/tb/tb_riscv_pipeline_top.sv
+FE:/Verilog/Riscv_pineline/sim/tb/tb_riscv_pipeline_top.sv
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 E:/Verilog/Riscv_pineline/sim/tb/tb_riscv_pipeline_top.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/Verilog/Riscv_pineline/sim/tb/tb_riscv_pipeline_top.sv|
+!i113 0
+R9
+R1

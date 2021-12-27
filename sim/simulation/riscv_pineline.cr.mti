@@ -1,0 +1,70 @@
+E:/Verilog/Riscv_pineline/hdl/hazard_detection.sv {1 {vlog -work work -vopt -sv -stats=none E:/Verilog/Riscv_pineline/hdl/hazard_detection.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module hazard_detection
+
+Top level modules:
+	hazard_detection
+
+} {} {}} E:/Verilog/Riscv_pineline/hdl/riscv_pineline_top.sv {0 {vlog -work work -vopt -sv -stats=none E:/Verilog/Riscv_pineline/hdl/riscv_pineline_top.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module riscv_pineline_top
+** Error: E:/Verilog/Riscv_pineline/hdl/riscv_pineline_top.sv(241): (vlog-2730) Undefined variable: 'IF_ID_rs1'.
+** Error: (vlog-13069) E:/Verilog/Riscv_pineline/hdl/riscv_pineline_top.sv(241): near "(": syntax error, unexpected '(', expecting .* or '.'.
+
+} {4.0 6.0} {}} E:/Verilog/Riscv_pineline/sim/tb/tb_riscv_pipeline_top.sv {1 {vlog -work work -vopt -sv -stats=none E:/Verilog/Riscv_pineline/sim/tb/tb_riscv_pipeline_top.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module tb_riscv_pipeline_top
+
+Top level modules:
+	tb_riscv_pipeline_top
+
+} {} {}} E:/Verilog/Riscv_pineline/hdl/instruction_decode.sv {1 {vlog -work work -vopt -sv -stats=none E:/Verilog/Riscv_pineline/hdl/instruction_decode.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module instruction_decode
+
+Top level modules:
+	instruction_decode
+
+} {} {}} E:/Verilog/Riscv_pineline/hdl/control.sv {1 {vlog -work work -vopt -sv -stats=none E:/Verilog/Riscv_pineline/hdl/control.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module control
+
+Top level modules:
+	control
+
+} {} {}} E:/Verilog/Riscv_pineline/hdl/memory_access.sv {1 {vlog -work work -vopt -sv -stats=none E:/Verilog/Riscv_pineline/hdl/memory_access.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module memory_access
+
+Top level modules:
+	memory_access
+
+} {} {}} E:/Verilog/Riscv_pineline/hdl/forwarding_unit.sv {1 {vlog -work work -vopt -sv -stats=none E:/Verilog/Riscv_pineline/hdl/forwarding_unit.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module forwarding_unit
+
+Top level modules:
+	forwarding_unit
+
+} {} {}} E:/Verilog/Riscv_pineline/hdl/register_write.sv {1 {vlog -work work -vopt -sv -stats=none E:/Verilog/Riscv_pineline/hdl/register_write.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module register_write
+
+Top level modules:
+	register_write
+
+} {} {}} E:/Verilog/Riscv_pineline/hdl/instruction_fetch.sv {1 {vlog -work work -vopt -sv -stats=none E:/Verilog/Riscv_pineline/hdl/instruction_fetch.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module instruction_fetch
+
+Top level modules:
+	instruction_fetch
+
+} {} {}} E:/Verilog/Riscv_pineline/hdl/execute.sv {1 {vlog -work work -vopt -sv -stats=none E:/Verilog/Riscv_pineline/hdl/execute.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module execute
+
+Top level modules:
+	execute
+
+} {} {}}
