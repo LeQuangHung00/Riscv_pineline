@@ -12,13 +12,6 @@ QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
 Top level modules:
 	hazard_detection
 
-} {} {}} E:/Verilog/Riscv_pineline/hdl/instruction_decode.sv {1 {vlog -work work -vopt -sv -stats=none E:/Verilog/Riscv_pineline/hdl/instruction_decode.sv
-QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
--- Compiling module instruction_decode
-
-Top level modules:
-	instruction_decode
-
 } {} {}} E:/Verilog/Riscv_pineline/sim/tb/tb_riscv_pipeline_top.sv {1 {vlog -work work -vopt -sv -stats=none E:/Verilog/Riscv_pineline/sim/tb/tb_riscv_pipeline_top.sv
 QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
 -- Compiling module tb_riscv_pipeline_top
@@ -32,6 +25,13 @@ QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
 
 Top level modules:
 	control
+
+} {} {}} E:/Verilog/Riscv_pineline/hdl/instruction_decode.sv {1 {vlog -work work -vopt -sv -stats=none E:/Verilog/Riscv_pineline/hdl/instruction_decode.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module instruction_decode
+
+Top level modules:
+	instruction_decode
 
 } {} {}} E:/Verilog/Riscv_pineline/hdl/forwarding_unit.sv {1 {vlog -work work -vopt -sv -stats=none E:/Verilog/Riscv_pineline/hdl/forwarding_unit.sv
 QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
@@ -60,5 +60,12 @@ QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
 
 Top level modules:
 	register_write
+
+} {} {}} E:/Verilog/Riscv_pineline/hdl/instruction_fetch.sv {1 {vlog -work work -vopt -sv -stats=none E:/Verilog/Riscv_pineline/hdl/instruction_fetch.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module instruction_fetch
+
+Top level modules:
+	instruction_fetch
 
 } {} {}}

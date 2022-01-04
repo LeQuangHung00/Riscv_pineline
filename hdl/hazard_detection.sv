@@ -31,12 +31,12 @@ module hazard_detection (
 always_comb begin : proc_stall
   if(ID_EX_mem_read) begin
     if(ID_EX_rd == IF_ID_rs1 || ID_EX_rd == IF_ID_rs2) begin
-      ctrl_sel     = 0;
+      ctrl_sel    = 0;
       IF_ID_write = 0;
       pc_write    = 0;
     end
   end else begin
-    ctrl_sel     = 1;
+    ctrl_sel    = 1;
     IF_ID_write = 1;
     pc_write    = 1;
   end

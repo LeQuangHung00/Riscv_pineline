@@ -16,17 +16,17 @@
 
 module control (
   input         [31:0] IF_ID_inst        ,
-  input                br_eq             , // branch compare equal
-  output  logic [ 1:0] alu_op            , // alu operation for alu control
-  output  logic        alu_src           , // alu source mux 2to1 control
-  output  logic        branch            , 
+  input                br_eq             ,
+  output  logic [ 1:0] alu_op            ,
+  output  logic        alu_src           ,
+  output  logic        branch            ,
   output  logic        pc_src            ,
   output  logic        IF_flush          ,
-  output  logic        mem_read          , 
-  output  logic        mem_write         , 
-  output  logic        reg_write         , 
-  output  logic        mem_to_reg        , 
-  output  logic [ 2:0] imm_sel             
+  output  logic        mem_read          ,
+  output  logic        mem_write         ,
+  output  logic        reg_write         ,
+  output  logic        mem_to_reg        ,
+  output  logic [ 2:0] imm_sel           
 
 );
 
